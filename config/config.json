@@ -1,0 +1,31 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "root",
+    "host": "postgres",
+    "dialect": "postgresql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  },
+  "googleApi": {
+    "base_url" : "https://maps.googleapis.com/maps/api/geocode/json",
+    "api_key" : "AIzaSyDmPP1wn7XYXJBtxLnFsiR_mViOXMNX65Y"
+  },
+  "openweathermap": {
+    "base_url": "https://api.openweathermap.org/data/2.5/forecast",
+    "api_key": "29b418a037f1272b41e867364d2df1d0"
+  }
+}
