@@ -6,7 +6,7 @@ const db = require("../models");
 const Location = db.Location;
 const Forcast = db.Forcast;
 
-const CITIES = ['Jerusalem','Tel Aviv','Haifa'];
+const CITIES = ['Jerusalem','Tel Aviv','Haifa','Eilat', 'Tiberias'];
 
 module.exports = {
     init: async function () {
